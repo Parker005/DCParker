@@ -2,6 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+
+    <!--
+	Name: Wasi Mohammed
+	File: biog-download.html
+	Date: 23 February 2024
+	This is a biography page.
+   --!>
     <meta name="viewport" content="width=device-width" />
     <title>Formatting a biography</title>
     <style>
@@ -14,14 +21,17 @@
       }
 
       h1 {
-        color: #375e97;
+      /*  color: #375e97; */
+        color: hotpink;
         font-size: 2em;
         font-family: Georgia, "Times New Roman", Times, serif;
         border-bottom: 1px solid #375e97;
+        border-bottom: 10px dotted purple;
       }
 
       h2 {
         font-size: 1.5em;
+        font-style: italic;
       }
 
       .job-title {
@@ -35,7 +45,15 @@
       }
 
       a:hover {
+        color: green;
         text-decoration: none;
+        
+      }
+
+      .contact {
+        background: #eeeeee;
+        border: 5px solid purple;
+        padding: 2rem;
       }
     </style>
   </head>
@@ -57,16 +75,15 @@
     </p>
 
     <h2>Contact information</h2>
-    <ul>
-      <li>
-        Email:
+    <ul class="contact">
+      <li>Email:
         <a href="mailto:jane@example.com">jane@example.com</a>
       </li>
-      <li>
-        Web:
-        <a href="https://example.com">https://example.com</a>
+      <li>Web:
+        <a href="http://example.com">http://example.com</a>
       </li>
       <li>Tel: 123 45678</li>
     </ul>
+
   </body>
 </html>
