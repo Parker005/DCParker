@@ -3,6 +3,14 @@
   <head>
     <meta charset="utf-8">
 
+
+    <!--
+	Name: Wasi Mohammed
+	File: index.html
+	Date: 5 April 2024
+	HTML file used for Accessibility Trobleshooting in part 1 of assignment 5.
+	-->
+
     <title>Accessibility assessment</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="style.css">
@@ -17,6 +25,8 @@
     <div class="header">
       <font size="7">Welcome to our wildlife website</font>
     </div>
+
+    <ul role="menu" id="nav-menu">
 
     <div class="nav">
       <ul>
@@ -48,7 +58,8 @@
         <br><br>
         Bears can also be classified in terms of their habitat — both large and medium bears are just as at home in urban areas as they are in the countryside. Different habitats encourange different behaviour however, as you'll find out below. The below table also gives you some useful facts about bears.
         <br><br>
-        <table>
+        <table tabindex="0">
+          <caption>Difference between wild and urban bears</caption>
           <thead>
             <tr>
               <td>Bear Type</td>
