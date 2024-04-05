@@ -52,7 +52,7 @@ p, li, table {
 /* || header layout */
 
 div[class="nav"], article, footer, .secondary {
-  background-color: green;
+  background-color: white;
 }
 
 article, footer, .secondary {
@@ -61,6 +61,7 @@ article, footer, .secondary {
 
 article {
   margin-right: 10px;
+  min-width: 560px;
 }
 
 div[class="nav"] {
@@ -69,6 +70,7 @@ div[class="nav"] {
   display: flex;
   padding: 1% 0;
   margin-bottom: 10px;
+  justify-content: space-around;
 }
 
 div[class="nav"] ul {
@@ -82,6 +84,7 @@ div[class="nav"] li {
   display: inline;
   text-align: center;
   flex: 1;
+  min-width: 154px;
 }
 
 div[class="nav"] a {
@@ -98,6 +101,8 @@ div[class="nav"] .search {
   align-items: center;
   height: 100%;
   padding: 0 2em;
+  min-width: 368px;
+  max-width: 408px;
 }
 
 .search input {
